@@ -14,3 +14,6 @@ git push -u origin master
 </pre>
 Check results with browser:
 Fire up a browser and go to https://illumine.github.io.
+
+Read also:\
+https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site
