@@ -3,18 +3,19 @@ body {
   font-family: "Lato", sans-serif;
   letter-spacing: 1px;
   line-height: 28px;
+  padding: 15px;
 }
 h1 {
   font-family: verdana;
-  font-size: 300%;
+  font-size: 150%;
 }
 h2 {
   font-family: verdana;
-  font-size: 200%;
+  font-size: 125%;
 }
 h3 {
   font-family: verdana;
-  font-size: 150%;
+  font-size: 110%;
 }
 p {
   color: black;
@@ -22,6 +23,23 @@ p {
 }
 
 
+/* Header Container holding the image and the text */
+.header {
+  position: relative;
+  text-align: left;
+}
+/* the H1/H2 inside container */
+.top-left {
+  position: absolute;
+  top: 1px;
+  left: 16px;
+  color: white;
+  line-height: 2px;
+}
+
+
+
+/* Side Menu Bar */
 .sidenav {
   height: 100%;
   width: 0;
